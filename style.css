@@ -634,8 +634,15 @@ footer{
   .footer-right > *{
     flex: 1;
   }
-  .footer-center{
-    text-align:center;
+  .footer-acmlogo{
+    float:left;
+    margin-top:10px;
+  }
+  .footer-igdtuwlogo{
+    float:right;
+    text-align: right;
+    margin-right:20px;
+    margin-top:10px;
   }
   .footer-left{
     flex: 1 0px;
@@ -643,7 +650,8 @@ footer{
   }
   .footer-right{
     flex: 2 0px;
-    margin-left:20px;
+    margin-left:15px;
+    margin-right:0.5px;
     text-align:right;
     margin-top:50px;
   
@@ -668,4 +676,5 @@ footer{
   .socials p{
    padding-left: 0px;
   }
+  
 }
