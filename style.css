@@ -634,12 +634,25 @@ footer{
   .footer-right > *{
     flex: 1;
   }
+  .footer-center{
+    text-align:center;
+  }
   .footer-left{
     flex: 1 0px;
+    margin-top:20px;
   }
   .footer-right{
     flex: 2 0px;
+    margin-left:40px;
+    text-align:right;
+    margin-top:30px;
   }
+  .socials{
+    text-align:center;
+    margin-top:60px;
+  }
+  
+  
 }
 
 @media (max-width: 600px){
@@ -651,5 +664,6 @@ footer{
   }
   .socials p{
   padding-left: 0px;
+  text-align:center;
   }
 }
