@@ -297,7 +297,7 @@ img{
   position: relative;
   margin: 0 15px 15px;
 }
-.img-area{
+.single-testimonial-img-area{
   border-radius: 50%;
   height: 150px;
   left: 0;
@@ -312,7 +312,7 @@ img{
   padding: 40px 20px 40px 100px;
   color: #fff;
 }
-.img-area > img{
+.single-testimonial-img-area > img{
   background: linear-gradient(to bottom,  #4a235a, white);
   border-radius: 50%;
   padding: 5px;
@@ -359,7 +359,7 @@ img{
 /*--------------------*/
 /* HIGHLIGHTS SECTION */
 /*--------------------*/
-.box-area{
+.highlight-box-area{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -603,7 +603,7 @@ footer{
     padding-left: 0;
     padding-top: 75px;
   }
-  .img-area{
+  .single-testimonial-img-area{
     left: 50%;
     margin-left: -75px;
     top: 75px;
