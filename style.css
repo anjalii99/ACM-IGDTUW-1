@@ -639,18 +639,21 @@ footer{
   }
   .footer-left{
     flex: 1 0px;
-    margin-top:20px;
+    margin-top:40px;
   }
   .footer-right{
     flex: 2 0px;
-    margin-left:40px;
+    margin-left:20px;
     text-align:right;
-    margin-top:30px;
+    margin-top:50px;
+  
   }
-  .socials{
+  .venue {
     text-align:center;
-    margin-top:60px;
+    margin-right:50px;
   }
+  
+  
   
   
 }
@@ -663,7 +666,6 @@ footer{
     padding-left: 0px;
   }
   .socials p{
-  padding-left: 0px;
-  text-align:center;
+   padding-left: 0px;
   }
 }
